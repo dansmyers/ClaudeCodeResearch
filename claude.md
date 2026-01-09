@@ -30,11 +30,9 @@ Preferred sources: U.S. Census Bureau, Zillow Research, Redfin, HUD Fair Market 
 
 Use the most recent available data, preferably 2022-2023 ACS or CPS:
 
-- Median annual earnings for men aged 25-34, stratified by educational attainment:
-  - High school diploma or equivalent (no college)
-  - Some college or associate degree
-  - Bachelor's degree or higher
+- Median annual earnings for men aged 25-34 by MSA
 - Data should be for full-time, year-round workers where possible
+- Use the metro-specific median wage for each MSA; do not substitute national medians
 
 Preferred sources: American Community Survey (ACS) Public Use Microdata, Current Population Survey (CPS), Bureau of Labor Statistics.
 
@@ -52,17 +50,17 @@ A home is considered affordable if its price is ≤3× annual income.
 
 For each MSA, calculate:
 
-1. The ratio of 25th percentile home price to median earnings (by education level)
-2. The ratio of 50th percentile home price to median earnings (by education level)
-3. Rent burden: median 2BR rent as a percentage of monthly earnings (by education level)
+1. The ratio of 25th percentile home price to median earnings for men aged 25-34
+2. The ratio of 50th percentile home price to median earnings for men aged 25-34
+3. Rent burden: median 2BR rent as a percentage of monthly earnings for men aged 25-34
 
 ### Presentation of Findings
 
 Present findings to highlight:
 
-- Which metros are affordable/unaffordable for each education tier
+- Which metros are affordable/unaffordable for young men
 - Regional patterns (e.g., Sun Belt vs. coastal metros, Midwest vs. West)
-- The education gradient in affordability (how much does a bachelor's degree improve affordability prospects?)
+- The gap between entry-level (25th percentile) and median home affordability
 
 ## Output Specifications
 
@@ -89,7 +87,7 @@ Prioritize peer-reviewed academic research for theoretical and contextual claims
 
 ### Length
 
-Approximately 2,500 words, excluding references and tables. Expand if necessary to present findings clearly, but do not pad.
+Approximately 2,500 words, excluding references, tables, and figures. Expand if necessary to present findings clearly, but do not pad.
 
 ### Structure
 
@@ -97,10 +95,28 @@ Approximately 2,500 words, excluding references and tables. Expand if necessary 
 2. Introduction (research question, significance, scope)
 3. Background (brief theoretical context, prior empirical findings)
 4. Data and Methods (sources, operationalization of variables, analytical approach)
-5. Findings (organized by key patterns: regional variation, education gradient, rent vs. purchase)
+5. Findings (organized by key patterns: regional variation, rent vs. purchase affordability)
 6. Discussion (interpretation, limitations, implications for family formation research)
 7. References
-8. Tables/Figures (at minimum: summary table of affordability ratios by MSA and education level; consider a figure showing regional patterns)
+8. Tables and Figures
+
+### Tables and Figures
+
+Include both summary tables and graphical visualizations:
+
+**Required tables:**
+
+- Summary table of all MSAs showing: median wage (men 25-34), 25th percentile home price, median home price, median 2BR rent, and corresponding affordability ratios
+- Ranked table of MSAs by affordability (most to least affordable)
+
+**Required figures:**
+
+- Scatter plot showing the relationship between median young male wages and median home prices across MSAs
+- Bar chart or dot plot comparing affordability ratios across MSAs, grouped or colored by region
+- Map visualization showing geographic distribution of affordability (if feasible)
+- Chart comparing rent burden (% of income) across MSAs
+
+Figures should be clear, well-labeled, and suitable for black-and-white reproduction.
 
 ## Scope Limitations
 
@@ -108,6 +124,7 @@ This analysis focuses specifically on young men's economic position relative to 
 
 - Women's earnings or dual-income household scenarios
 - Non-housing costs of living
+- Variation by educational attainment (metro-level stratified data unavailable)
 - Subjective attitudes toward marriage or family
 - Actual marriage or fertility rates (though these may be referenced contextually)
 
